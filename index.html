@@ -6,14 +6,7 @@
   <meta charset="utf-8">
   <style type="text/css">
 
-
-
-    .video-container{
-
-      flex-grow:1;
-
-    }
-    .player{
+    .vp-container{
       width: 800px;
       height: 600px;
       box-shadow:
@@ -23,12 +16,18 @@
       flex-direction:column;
 
       }
-    .video-container-buttons {
+    .vp-container .custom-player{
+
+      flex-grow:1;
+
+    }
+
+    .vp-container .video-container-buttons {
       display:flex;
       background-color:black;
 
     }
-    .control-button {
+    .vp-container .video-container-buttons .control-button {
       color:white;
       border: none;
       background-color:transparent;
@@ -38,7 +37,7 @@
       height: 40px;
       width: 40px;
     }
-    .stub {
+    .vp-container .video-container-buttons .stub {
     display:flex;
     flex-grow:1;
     }
@@ -47,8 +46,8 @@
 
 </head>
 <body>
-<div id="player" class="player">
-  <div  class="js-video-container video-container" ></div>
+<div id="player" class="vp-container">
+  <div  class="js-video-container custom-player" ></div>
   <div class="video-container-buttons">
     <button class="js-play-button control-button"><i class="fa fa-play" aria-hidden="true"></i></button>
     <button class="js-pause-button control-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
