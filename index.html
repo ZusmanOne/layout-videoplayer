@@ -68,7 +68,7 @@
 
 
     }
-    .vp-container .video-container-buttons .dot {
+    .vp-container .video-container-buttons  .dot {
     height: 10px;
     width: 10px;
     background-color: red;
@@ -80,9 +80,16 @@
     border-color: white;
     display: inline-block;
     margin: -4px;
+    opacity: 0;
+    transition-duration: 300ms;
+
 
     }
-
+    .vp-container .video-container-buttons .progress:hover .dot {
+     opacity: 1;
+     transition-duration: 300ms;
+    
+    }
   </style>
 
 </head>
