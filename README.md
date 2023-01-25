@@ -7,6 +7,7 @@
 
 ![max example](screenshots/img.png)
 ![max example](screenshots/img_1.png)
+![max example](screenshots/max.gif)
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 
