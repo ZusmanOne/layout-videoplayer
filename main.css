@@ -32,12 +32,10 @@
       height: 42px;
       width: 37px;
     }
-    .vp-container .video-container-buttons .stub {
-    display:flex;
-    flex-grow:1;
-    }
+
     .vp-container .video-container-buttons .progres-timer {
-        display:flex
+        display:flex;
+        flex-grow:1;
     }
     .vp-container .video-container-buttons  .time {
         background-color: black;
